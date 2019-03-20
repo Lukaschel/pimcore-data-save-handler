@@ -1,0 +1,28 @@
+{
+  "name": "lukaschel/pimcore-data-save-handler",
+  "description": "Pimcore bundle to automate data object storaging",
+  "type": "pimcore-bundle",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Lukaschel",
+      "email": "lukaschel33@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lukaschel\\PimcoreDataSaveHandlerBundle\\": ""
+    }
+  },
+  "extra": {
+    "pimcore": {
+      "bundles": [
+        "Lukaschel\\PimcoreDataSaveHandlerBundle\\PimcoreDataSaveHandlerBundle"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+      "composer/installers": "^1.1"
+  }
+}

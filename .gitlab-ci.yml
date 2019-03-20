@@ -1,0 +1,8 @@
+image: php:7.1
+cache:
+    paths:
+        - .php-cs-fixer
+
+test:
+    script:
+        - php php-cs-fixer.phar fix --verbose --diff
